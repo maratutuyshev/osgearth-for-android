@@ -1,0 +1,26 @@
+Determining if files pthread.h exist failed with the following output:
+Change Dir: D:/TDDOWNLOAD/gwaldron-osgearth-osgearth-2.1.1-646-g7bac0cc/gwaldron-osgearth-7bac0cc/build/CMakeFiles/CMakeTmp
+
+Run Build Command:D:\PROGRA~1\MICROS~2.0\Common7\IDE\devenv.com CMAKE_TRY_COMPILE.sln /build Debug /project cmTryCompileExec
+
+Microsoft (R) Visual Studio Version 10.0.30319.1.
+Copyright (C) Microsoft Corp. All rights reserved.
+
+The evaluation period for Visual Studio Trial ends in 81 days.
+1>------ Build started: Project: cmTryCompileExec, Configuration: Debug Win32 ------
+1>  Microsoft (R) 32-bit C/C++ Optimizing Compiler Version 16.00.30319.01 for 80x86
+1>  Copyright (C) Microsoft Corporation.  All rights reserved.
+1>  
+1>  cl /c /Zi /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"cmTryCompileExec.dir\Debug\\" /Fd"D:/TDDOWNLOAD/gwaldron-osgearth-osgearth-2.1.1-646-g7bac0cc/gwaldron-osgearth-7bac0cc/build/CMakeFiles/CMakeTmp/Debug/cmTryCompileExec.pdb" /Gd /TC /analyze- /errorReport:prompt "D:\TDDOWNLOAD\gwaldron-osgearth-osgearth-2.1.1-646-g7bac0cc\gwaldron-osgearth-7bac0cc\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c"  /Zm1000 
+1>  
+1>  CheckIncludeFiles.c
+1>D:\TDDOWNLOAD\gwaldron-osgearth-osgearth-2.1.1-646-g7bac0cc\gwaldron-osgearth-7bac0cc\build\CMakeFiles\CMakeTmp\CheckIncludeFiles.c(2): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
+
+Source:
+/* */
+#include <pthread.h>
+
+
+int main(){return 0;}
+
